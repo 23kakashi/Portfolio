@@ -1,0 +1,37 @@
+.Main_container {
+  margin: 100px 60px;
+}
+
+.container {
+  width: 50vw;
+  margin: auto;
+
+}
+
+.intro {
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+}
+
+.avatar img{
+
+  padding: 0px 40px;
+  width: 100%;
+  background-color: antiquewhite;
+  border-radius: 15px;
+
+
+}
+
+.aboutme h1{
+  font-size: 80px;
+  margin: 10px 0;
+  color: #1a1C20
+}
+
+.aboutme p{
+  font-size: 25px;
+  margin-bottom: 50px;
+}

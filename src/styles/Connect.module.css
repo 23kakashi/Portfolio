@@ -1,0 +1,31 @@
+.connect_section {
+  margin: 50px 60px;
+}
+
+.container {
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 60vw;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1.4fr 2fr;
+  gap: 50px;
+  padding: 75px 50px;
+}
+
+.connect_appeal {
+  font-size: 64px;
+  line-height: 88px;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+.form_container {
+  margin: 1rem 0;
+}
+
+.inputA {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
