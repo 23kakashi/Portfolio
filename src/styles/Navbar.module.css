@@ -74,3 +74,18 @@
 .link p:hover:after {
   transform: scaleX(1);
 }
+
+@media all and (max-width: 1300px) {
+  .navbar {
+    background-color: #eeeff1;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .link p:first-child {
+    display: none;
+  }
+  .link p:nth-child(2) {
+    display: none;
+  }
+}

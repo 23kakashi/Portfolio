@@ -5,33 +5,131 @@
 .container {
   width: 50vw;
   margin: auto;
-
 }
 
 .intro {
-  
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 50px;
 }
 
-.avatar img{
-
+.avatar img {
   padding: 0px 40px;
   width: 100%;
   background-color: antiquewhite;
   border-radius: 15px;
-
-
 }
 
-.aboutme h1{
+.aboutme h1 {
   font-size: 80px;
   margin: 10px 0;
-  color: #1a1C20
+  color: #1a1c20;
 }
 
-.aboutme p{
+.aboutme p {
   font-size: 25px;
   margin-bottom: 50px;
+  
+}
+
+@media all and (max-width: 1430px) and (min-width: 500px) {
+  .Main_container {
+    margin: 100px 60px 20px;
+  }
+  .aboutme h1 {
+    font-size: 50px;
+  }
+  .aboutme p {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 1300px) and (min-width: 1100px) {
+  .container {
+    width: 60vw;
+    margin: auto;
+  }
+  .avatar img {
+    padding: 0px 40px;
+    width: 250px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+  }
+}
+
+@media all and (max-width: 1199px) and (min-width: 500px) {
+  .container {
+    width: 65vw;
+    margin: auto;
+  }
+  .avatar img {
+    padding: 0px 30px;
+    width: 250px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+  }
+}
+@media all and (max-width: 1300px) and (min-width: 850px) {
+  .container {
+    width: 60vw;
+    margin: auto;
+  }
+  .avatar img {
+    padding: 0px 40px;
+    width: 250px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+  }
+}
+
+/* @media all and (max-width: 849px) and (min-width: 600px){
+  .container {
+    width: 95vw;
+  }
+  .Main_container {
+    margin: 100px 40px 20px;
+  }
+} */
+@media all and (max-width: 849px) and (min-width: 600px){
+  .container {
+    width: 95vw;
+  }
+  .avatar img {
+    margin-left: 20px;
+    padding: 0px 0px;
+    border-radius: 50%;
+  }
+  .intro {
+    /* display: block; */
+    gap: 10px;
+  }
+  .aboutme p{
+    padding-right: 20px;
+  }
+}
+@media all and (max-width: 849px) and (min-width: 100px){
+  .Main_container {
+    margin: 140px auto 30px;
+  }
+  .container {
+    width: 100vw;
+    margin: auto;
+  }
+  .avatar img {
+    padding: 0px 20px;
+    border-radius: 50%;
+  }
+  .intro {
+    display: block;
+  }
+  .aboutme h1 {
+    font-size: 50px;
+    padding: 0px 20px;
+    margin: 10px 0;
+    color: #1a1c20;
+  }
+  .aboutme p{
+    padding: 0px 20px;
+    font-size: 20px;
+  }
 }

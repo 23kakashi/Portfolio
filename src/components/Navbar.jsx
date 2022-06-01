@@ -30,7 +30,7 @@ const Navbar = () => {
         <p onClick={scrollToAbout}>About</p>
         <p onClick={scrollToContact}>Contact</p>
         <NavLink to="/work">
-          <Button text="View Work" />
+          <Button text="Work" />
         </NavLink>
       </div>
     </div>

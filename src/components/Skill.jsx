@@ -5,16 +5,32 @@ import style from "styled-components";
 
 const Div = style.div`
   padding-left: 20px;
+
+  @media (max-width: 899px) {
+    padding-left: 00px;
+  }
 `;
 
 const Section = style.section`
   width: 50vw;
   margin: auto;
+
+  @media (max-width: 1100px) and (min-width: 900px) {
+    width: 70vw
+  }
+
+  @media (max-width: 899px) {
+    width: 95vw
+  }
   `;
 
 const H = style.h2`
   text-align: center;
   font-size: 22px
+
+  @media (max-width: 899px) {
+    font-size: 12px
+  }
 `;
 const skills = [
   "JavaScript",

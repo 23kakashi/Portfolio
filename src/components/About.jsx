@@ -5,14 +5,14 @@ const About = () => {
     <section className={classes.about} id="about">
       <div className={classes.about_container}>
         <div className={classes.know}>
-          <p>KNOW</p>
-          <p>ABOUT</p>
+          <p>Know</p>
+          <p>About </p>
           <p>Me!</p>
         </div>
         <div className={classes.aboutme}>
           <p>
-            I'm Tapish Sharma with Proficiency in MERN stack. Passion for
-            website design that provides a seamless user experience. I am
+            I'm Tapish Sharma. I have Passion for website design that provides a
+            seamless user experience. I have proficiency in MERN stack. I am
             looking for an environment where I can bring my ideas to life.
           </p>
         </div>

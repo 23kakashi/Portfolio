@@ -34,3 +34,43 @@
   padding: 20px;
   
 }
+
+@media all and (max-width: 520px) {
+  .footer {
+    width: 95vw;
+    margin: auto;
+    padding: 0 10PX;
+  }
+  
+  .footer_container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .logo_img {
+    width: 35px;
+    height: 35px;
+    margin-right: 0px;
+  }
+  
+  .link {
+    display: flex;
+  }
+  
+  .link p {
+    color: black;
+    margin: 0PX 10PX;
+
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    font-weight: 500;
+  }
+  
+  .footer_quote {
+    text-align: center;
+    color: #8f929e;
+    padding: 10px;
+  }  
+}
