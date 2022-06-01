@@ -1,3 +1,12 @@
+<h1>Welcome</h1>
+<img alt="image header" src="./portfolioImg.png"/> 
+
+# Connect with me
+
+[Gmail](tapishsharma1234@gmail.com)
+</br>
+[LinkedIn](https://www.linkedin.com/in/tapish23/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
