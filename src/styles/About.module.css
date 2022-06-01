@@ -1,0 +1,22 @@
+.about {
+  width: 50vw;
+  margin: 50px auto;
+  padding: 30px 50px;
+}
+
+.about_container {
+  display: grid;
+  grid-template-columns: 1fr 1.3fr;
+  gap: 30px;
+}
+
+.know {
+  padding: 0 20px;
+  font-size: 64px;
+  font-weight: 500;
+}
+
+.aboutme {
+  font-size: 25px;
+  padding: 0 20px;
+}

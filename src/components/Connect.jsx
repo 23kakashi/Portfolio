@@ -5,6 +5,7 @@ import Button from "../UI/Button";
 import emailjs from "emailjs-com";
 
 const Connect = () => {
+  const [text, setText] = useState("Submit");
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -20,19 +21,23 @@ const Connect = () => {
 
   const submitHandler = (e) => {
     e.preventDefault();
+    setText("Sending....");
     emailjs
       .send("service_ja8sav8", "template_gwivao7", form, "7D-uWOaR7frDtgFeG")
       .then(
         function (response) {
           console.log("SUCCESS!", response.status, response.text);
+          alert("Mail Sent!")
         },
         function (error) {
           console.log("FAILED...", error);
+          alert("Something went wrong. Please use LinkedIn")
         }
       );
+    setText("send");
   };
   return (
-    <section className={classes.connect_section}>
+    <section className={classes.connect_section} id="contact">
       <div className={classes.container}>
         <div className={classes.connect_appeal}>Want to get in touch?</div>
         <div className={classes.form_container}>
@@ -70,7 +75,7 @@ const Connect = () => {
                 onChange={changeHandler}
               />
             </div>
-            <Button type="submit" text="Submit" />
+            <Button type="submit" text={text} />
           </form>
         </div>
       </div>
