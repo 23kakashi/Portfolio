@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useEffect } from "react";
 import classes from "../styles/Project.module.css";
 import ProjectCard from "../UI/ProjectCard";
 import Connect from "./Connect";
+import { animateScroll as scroll } from "react-scroll";
 import { v4 as uuid } from "uuid";
 
 const project = [
@@ -48,6 +49,9 @@ const project = [
 ];
 
 const Project = () => {
+  useEffect(() => {
+    scroll.scrollToTop();
+  });
   return (
     <>
       <section className={classes.project}>

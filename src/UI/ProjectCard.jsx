@@ -1,7 +1,7 @@
-import React from "react";
 import classes from "../styles/Project.module.css";
 import Button from "./Button";
 import { v4 as uuid } from "uuid";
+
 
 const techicon = (value) => {
   if (value === "HTML") {
