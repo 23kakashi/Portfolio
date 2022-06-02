@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import classes from "../styles/Project.module.css";
 import ProjectCard from "../UI/ProjectCard";
-import Connect from "./Connect";
 import { animateScroll as scroll } from "react-scroll";
 import { v4 as uuid } from "uuid";
 
@@ -48,13 +47,13 @@ const project = [
   },
 ];
 
-const Project = () => {
+const Project = ({ myref }) => {
   useEffect(() => {
     scroll.scrollToTop();
   });
   return (
     <>
-      <section className={classes.project}>
+      <section className={classes.project} ref={myref}>
         <div className={classes.project_container}>
           {project.map(({ id, title, desc, netlify, git, resp, img, tech }) => (
             <ProjectCard
@@ -71,7 +70,6 @@ const Project = () => {
           ))}
         </div>
       </section>
-      <Connect />
     </>
   );
 };

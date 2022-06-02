@@ -1,19 +1,11 @@
 import React from "react";
 import { animateScroll as scroll } from "react-scroll";
-import { NavLink } from "react-router-dom";
 import classes from "../styles/Navbar.module.css";
 import Button from "../UI/Button";
-import { useNavigate } from "react-router-dom";
 
-const Navbar = () => {
-  const navigate = useNavigate();
+const Navbar = ({ gotoProject }) => {
   const scrollToTop = () => {
     scroll.scrollToTop();
-    navigate("/");
-  };
-
-  const scrollToAbout = () => {
-    scroll.scrollTo(600);
   };
 
   const scrollToContact = () => {
@@ -27,11 +19,19 @@ const Navbar = () => {
         <p>Tapish Sharma</p>
       </div>
       <div className={classes.link}>
-        <p onClick={scrollToAbout}>About</p>
+        <a
+          className={classes.resume}
+          href="https://drive.google.com/file/d/1oeeNrpKUzBNmJxofQZtIQB-0yODVuKSo/view"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <p>Resume</p>
+        </a>
         <p onClick={scrollToContact}>Contact</p>
-        <NavLink to="/work">
+
+        <span onClick={gotoProject}>
           <Button text="Work" />
-        </NavLink>
+        </span>
       </div>
     </div>
     // </nav>

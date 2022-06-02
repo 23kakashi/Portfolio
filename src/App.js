@@ -1,12 +1,9 @@
 import "./App.css";
-import { BrowserRouter } from "react-router-dom";
-import MainRoutes from "./Routes/MainRoutes";
+import Home from "./components/Home";
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
-        <MainRoutes />
-      </BrowserRouter>
+      <Home />
     </div>
   );
 }
