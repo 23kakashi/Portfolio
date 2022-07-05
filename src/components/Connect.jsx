@@ -31,7 +31,7 @@ const Connect = () => {
         },
         function (error) {
           console.log("FAILED...", error);
-          alert("Something went wrong. Please use LinkedIn")
+          alert("Gmail has blocked this service for less secure sites. Please use LinkedIn")
         }
       );
     setText("send");
