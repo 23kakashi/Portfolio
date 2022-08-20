@@ -28,11 +28,9 @@ const Connect = () => {
       .send("service_ja8sav8", "template_gwivao7", form, "7D-uWOaR7frDtgFeG")
       .then(
         function (response) {
-          console.log("SUCCESS!", response.status, response.text);
           notify("Mail Sent. Will Connect with you shortly")
         },
         function (error) {
-          console.log("FAILED...", error);
           notify("Server is down, Please use LinkedIn")
         }
       );
