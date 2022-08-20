@@ -2,7 +2,6 @@ import classes from "../styles/Project.module.css";
 import Button from "./Button";
 import { v4 as uuid } from "uuid";
 
-
 const techicon = (value) => {
   if (value === "HTML") {
     return <i className="devicon-html5-plain-wordmark colored"></i>;
@@ -24,6 +23,18 @@ const techicon = (value) => {
   }
   if (value === "Tailwind") {
     return <i className="devicon-tailwindcss-original-wordmark colored"></i>;
+  }
+  if (value === "ExpressJS") {
+    return <i className="devicon-express-original-wordmark colored"></i>;
+  }
+  if (value === "MongoDB") {
+    return <i class="devicon-mongodb-plain-wordmark colored"></i>;
+  }
+  if (value === "Redis") {
+    return <i class="devicon-redis-plain-wordmark colored"></i>;
+  }
+  if (value === "Heroku") {
+    return <i class="devicon-heroku-plain-wordmark colored"></i>;
   }
 };
 

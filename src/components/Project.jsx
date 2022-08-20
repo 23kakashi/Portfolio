@@ -17,6 +17,26 @@ const project = [
   },
   {
     id: 2,
+    title: "BigBasket Clone",
+    desc: "This website provides you with personal and home decoration items. This website is responsive with entire product flow. This was part of a group project. I learned to use mongodb, redis and docker in this project",
+    netlify: "https://bigbasket-clone-web16.netlify.app/",
+    git: "https://github.com/jeny008/quixotic-snail-9802",
+    resp: "I developed backend for this website. MongoDB used as primary database. Redis was used to store, verify and expire otp. Inplemented Authorization using cookies",
+    img: "/bigbasket.png",
+    tech: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Redux",
+      "ExpressJS",
+      "MongoDB",
+      "Redis",
+      "Heroku",
+    ],
+  },
+  {
+    id: 3,
     title: "OverStock Clone",
     desc: "This website provides you with personal and home decoration items. This website is responsive with entire product flow. This was part of a group project. I learned to use Dom manipulation during this project",
     netlify: "https://profound-praline-6eee04.netlify.app/ ",
@@ -24,16 +44,6 @@ const project = [
     resp: "I build jewellery and furniture page. I included sorting by price and few filter method. This makes good user experience. I also made the footer component.",
     img: "/overstock1.png",
     tech: ["HTML", "CSS", "JavaScript"],
-  },
-  {
-    id: 3,
-    title: "Timer clone",
-    desc: "This can be used a both stopwatch and timer. I learn to use custom componets during this project",
-    netlify: "https://incredible-figolla-9ff290.netlify.app/",
-    git: "https://github.com/masai-course/tapish_fw16_560/tree/master/Unit%205/sprint-1/day-3/assignments",
-    resp: "This was create using custom hooks and react-redux.",
-    img: "/clock.png",
-    tech: ["HTML", "CSS", "JavaScript", "React", "Redux"],
   },
   {
     id: 4,
@@ -45,6 +55,16 @@ const project = [
     img: "/max1.png",
     tech: ["HTML", "CSS", "JavaScript", "React", "Tailwind"],
   },
+  // {
+  //   id: 4,
+  //   title: "Blogging App",
+  //   desc: "This is a blogging application where you can write blog and ",
+  //   netlify: "https://incredible-figolla-9ff290.netlify.app/",
+  //   git: "https://github.com/masai-course/tapish_fw16_560/tree/master/Unit%205/sprint-1/day-3/assignments",
+  //   resp: "This was create using custom hooks and react-redux.",
+  //   img: "/clock.png",
+  //   tech: ["HTML", "CSS", "JavaScript", "React", "Redux"],
+  // },
 ];
 
 const Project = ({ myref }) => {

@@ -23,7 +23,7 @@ const Home = () => {
             <div className={classes.aboutme}>
               <h1>Hi there!</h1>
               <p>
-                Full-Stack Web Developer Fuelled by a passion for designing
+                <span className={classes.developer}>Full-Stack Web Developer</span> Fuelled by a passion for designing
                 compelling products, I have a deep desire to excel and
                 continuously improve in my work.
               </p>
