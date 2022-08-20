@@ -21,7 +21,7 @@ const Navbar = ({ gotoProject }) => {
       <div className={classes.link}>
         <a
           className={classes.resume}
-          href="https://drive.google.com/file/d/1oeeNrpKUzBNmJxofQZtIQB-0yODVuKSo/view"
+          href="https://drive.google.com/file/d/16kNnGQlJ7IxASqcVqr-IuyTB0Qqh2kwL/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
