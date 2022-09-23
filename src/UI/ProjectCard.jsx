@@ -58,8 +58,7 @@ const ProjectCard = ({ id, title, desc, netlify, git, resp, img, tech }) => {
         <div className={classes.content}>
           <div className={classes.desc}>
             <p>{desc}</p>
-          </div>
-          <div className={classes.resp}>
+            <br />
             <p>{resp}</p>
           </div>
         </div>

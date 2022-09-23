@@ -34,20 +34,23 @@
   width: 95%;
   margin: auto;
   padding-bottom: 10px;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
 }
 
 .img {
   width: 95%;
   margin: 10px auto 0px;
   padding-bottom: 10px;
+  transition: transform .2s;
+}
+
+.img:hover {
+  transform: scale(1.02)
 }
 
 .techicon {
   display: flex;
   justify-content: center;
+  margin-top: 8px;
   gap: 20px;
 }
 
