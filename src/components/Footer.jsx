@@ -12,8 +12,7 @@ const Footer = () => {
           <a href="https://www.linkedin.com/in/tapish23/">
             <p>LinkedIn</p>
           </a>
-          <a href="https://github.com/kakashi10-23">
-            <p>Github</p>
+          <a href="https://github.com/23kakashi"><p>Github</p>
           </a>
 
           <p onClick={() => scroll.scrollToTop()}>About</p>
